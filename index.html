@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div>
+        <header class="heading">
+            <h1>Vacation Destination Wish List</h1>
+
+        <p>Found exciting places to visit on your next vacation? Use the form below to add them to your wish List</p>
+        </header>
+    </div>
+    <div>
+        <form method="post" action="" class="form" id="Destination_form">
+            
+            <label for="name">Destination Name</label>
+            <input type="text" placeholder="Enter the name of the Destination" id="name" required>
+
+            
+            <label for="Location">Destination Location</label>
+            <input type="text" placeholder="Where is it Located" id="Location" required>
+
+            
+            <label for="Photos">Destination Photos</label>
+            <input type="url" placeholder="Enter an image url of the place" id="Photos">
+
+            
+            <label for="Description">Destination Description</label>
+                <textarea name="" id="Description" cols="30" rows="10" placeholder="Describe Destination"></textarea>
+
+            <button type="submit">
+                Add to the List
+            </button>
+        </form>
+    </div>
+    <div>
+        <article>
+            <h2 id="title">Enter Destination Details</h2>
+            <div id="Destination container">
+                <!-- <div class="card">
+                    <img src="depositphotos_146980809-stock-photo-which-way-to-go-road.jpg" alt="sign image">
+                    <div class="card-body">
+                        <h3>Destination name</h3><br>
+                        <h4>Destination Location</h4><br>
+                        <p class="card-text">Destination Description</p><br>
+                        <button>Remove</button>
+                    </div>
+            
+                </div> -->
+            </div>
+            
+        </article>
+        
+    </div>
+
+   
+</body>
+</html>

@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{max-width: 100%;}
+
+
+.heading{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 50px;
+    font-size: large;
+    color: aliceblue;
+    
+
+}
+/* Apply basic styling to the form */
+.form {
+    max-width: 700px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10%;
+  }
+  
+  /* Style the labels and input fields */
+  .form label {
+    margin: 5px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  input[type="url"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the button */
+  button {
+    background-color: white;
+    color: black;
+    border: solid 1px blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  article{
+    
+    text-align: center;
+    margin: 10px;
+    
+  }
+  .card{
+    float: right;
+    max-height: 80%;
+    width: 30%;
+    margin: 40px;
+    background-color: #f5f5f5;
+    align-content: center;
+    margin-right: 20%;
+    
+  }
+  .card-body{
+    text-align: left;
+  }
+  img{
+    align-content: center;
+  }
+  
